@@ -1,0 +1,40 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+  padding-top: 100px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+input {
+  padding: 15px;
+  width: 300px;
+  border-radius: 25px;
+  text-decoration: none;
+}
+
+button {
+  border-radius: 20px;
+}
+
+textarea:focus, input:focus, button:focus {
+    outline: none;
+}
+
+a:link, a:hover, a:visited {
+  text-decoration: none;
+  color: #2c3e50;
+}
+
+.seperator {
+  padding: 10px;
+}
+
+.entity {
+  margin-left: 500px;
+  margin-right: 500px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  background-color: #bdc3c7;
+}
